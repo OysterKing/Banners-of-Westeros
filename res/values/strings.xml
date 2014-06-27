@@ -3,6 +3,13 @@
 
     <string name="app_name">Banners of Westeros</string>
     <string name="hello_world">Hello world!</string>
+    <string name="button_the_north">Houses of the North</string>
+    <string name="button_the_iron_islands">Houses of the Iron Islands</string>
+    <string name="button_the_crownlands">Houses of the Crownlands</string>
+    <string name="button_the_westerlands">Houses of the Westerlands</string>
+    <string name="button_dorne">Houses of Dorne</string>
+    <string name="button_the_reach">Houses of the Reach</string>
+    <string name="button_the_vale">Houses of the Vale</string>
     <string name="action_settings">Settings</string>
 
 </resources>
