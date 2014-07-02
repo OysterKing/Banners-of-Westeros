@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.bannersofwesteros.GetBanner"
+            android:label="@string/title_activity_get_banner"
+            android:parentActivityName="com.example.BannersOfWesteros.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.BannersOfWesteros.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.bannersofwesteros.DisplayBannerActivity"
+            android:label="@string/title_activity_display_banner"
+            android:parentActivityName="com.example.BannersOfWesteros.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.BannersOfWesteros.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
