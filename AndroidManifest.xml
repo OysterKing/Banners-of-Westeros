@@ -38,6 +38,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.BannersOfWesteros.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.bannersofwesteros.DisplayNextBanner"
+            android:label="@string/title_activity_display_next_banner"
+            android:parentActivityName="com.example.BannersOfWesteros.DisplayBannerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.BannersOfWesteros.DisplayBannerActivity" />
+        </activity>
     </application>
 
 </manifest>
